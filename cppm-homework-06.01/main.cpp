@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     int x;
     int y;
     int z;
-    Math m (x,y);
+    
     
     std::cout << "Please enter first number: ";
     std::cin >> x;
@@ -30,24 +30,24 @@ int main(int argc, const char * argv[]) {
     
     if (z == 1)
     {
-        std::cout << x << " + " << y << " =  " <<  m.addition(x,y) << std::endl;
+        std::cout << x << " + " << y << " =  " <<  addition(x,y) << std::endl;
         
     }
     else if (z == 2)
     {
-        std::cout << x << " - " << y << " =  " << m.subtraction(x,y) << std::endl;
+        std::cout << x << " - " << y << " =  " << subtraction(x,y) << std::endl;
     }
     else if (z == 3)
     {
-        std::cout << x << " * " << y << " =  " << m.multiplication(x,y) << std::endl;
+        std::cout << x << " * " << y << " =  " << multiplication(x,y) << std::endl;
     }
     else if (z == 4)
     {
-        std::cout << x << " / " << y << " =  " << m.divition(x,y) << std::endl;
+        std::cout << x << " / " << y << " =  " << divition(x,y) << std::endl;
     }
     else if (z == 5)
     {
-        std::cout << x << " to the degree of " << y << " =  " << m.exponentation(x,y) << std::endl;
+        std::cout << x << " to the degree of " << y << " =  " << exponentation(x,y) << std::endl;
     };
     
     return 0;

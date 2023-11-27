@@ -8,19 +8,7 @@
 #pragma once
 
 
-class Math
-{
-private:
-    int x = 0;
-    int y = 0;
-    
-public:
-    
-    Math(int x, int y)
-    {
-        this->x = x;
-        this->y = y;
-    };
+
     
     int addition (int x, int y);
     int subtraction (int x, int y);
@@ -28,4 +16,4 @@ public:
     int divition(int x, int y);
     int exponentation(int x, int y);
     
-};
+
